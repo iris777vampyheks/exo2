@@ -1,0 +1,200 @@
+
+.navbar-nav .nav-link {
+  position: relative;
+  margin-left: 1.5cm;
+  font-size: 13px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.navbar-nav .nav-link::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #000000;
+  transform: scaleX(0);
+  transition: transform 0.2s;
+}
+
+.navbar-nav .nav-link:hover::after,
+.navbar-nav .nav-link.active::after {
+  transform: scaleX(1);
+}
+.vl {
+  border-left: 2px solid rgb(20, 21, 20);
+  height: 40px;
+}
+  
+  .bodypic{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    filter: grayscale(0.3);
+    clip-path: polygon(0 0, 100% 0, 100% 99%, 0 100%);
+    object-fit: cover;
+  }
+  
+  .bodypic::before {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  .li-nav{
+font-size: 1.5rem;
+  }
+  .li-nav:hover {
+    color: rgb(255, 255, 255);
+    background-color: #5c2d91;
+  }
+
+  .head3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    position: absolute;
+    top: 30%;
+    left:50%;
+    transform: translate(-50%);
+    font-family: Arial, sans-serif;
+  }
+  
+  .head1 {
+    font-size: 62px;
+    font-weight: 400;
+    line-height: 1.5;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    color: rgb(255, 249, 249);
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-70%);
+    font-family: apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  
+  }
+  
+  #btn {
+    position: absolute;
+    bottom: 70px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: blueviolet;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    border: 2px solid blueviolet;
+  }
+  
+  .pg {
+    background-color: #fff;
+    padding: 50px;
+    top: -100vh;
+  }
+  
+  .texto {
+    text-align: center;
+  }
+  .cards{
+    display: flex;
+     justify-content: space-between;
+    justify-content: space-around;
+  }
+  .purple.btn-primary {
+    color: #4c237d;
+    background-color: #5c2d91;
+    border-color: #5c2d91;
+  }
+  
+  .purple:hover {
+    color: #4c237d;
+    background-color: #4c237d;
+    border-color: #4c237d;
+  }
+  
+  .purple:focus {
+    box-shadow: 0 0 0 0.2rem rgba(92, 45, 145, 0.5);
+  
+  }
+  .star{
+    color:purple;
+    border-color: #4c237d;
+    text-align: center;
+  }
+  
+    
+.first{
+    border: 4px solid rgb(150, 1, 169);
+    text-align: center;
+    display: flex;
+}
+.second{
+border: 4px solid rgb(206, 0, 0);
+text-align: center;
+}
+.third{
+border: 4px solid rgb(0, 131, 57);
+text-align: center;
+}
+.forth{
+border: 4px solid yellow;
+text-align: center;
+}
+.fifth{
+border:4px solid blue;
+text-align: center;
+}
+.btn-mauve{
+    color: #fafafa;
+    background-color: #4c237d;
+}
+    .btn-red{
+        color: #fafafa;
+        background-color: #e20000;
+       
+        }
+        .btn-green{
+            color: #fafafa;
+            background-color: #008425;
+            
+            }
+            .btn-yellow{
+                color: #fafafa;
+                background-color: #fbff06;
+                }
+                .btn-blue{
+                    color: white;
+                    background-color: #0d18e2;
+                    }                         
+.numone{
+                   
+justify-content: start;
+
+                   font-size: 100px;
+                    
+                      }
+                    
+                    .numtwo{
+                        
+                    }
+                    .numthree{
+                        
+                    }
+                    .numfour{
+                        
+                    }
+                    .numfive{
+                        
+                    }
+                    
